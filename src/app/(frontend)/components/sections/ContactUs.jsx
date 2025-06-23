@@ -172,7 +172,9 @@ const ContactUs = () => {
                     </div>
                     <div>
                       <p className="font-medium text-gray-900">Email</p>
-                      <p className="text-gray-600">asok123123@gmail.com</p>
+                      <p className="text-gray-600">
+                        support@besteverhospitality.com.au
+                      </p>
                     </div>
                   </div>
 
@@ -430,7 +432,7 @@ const ContactUs = () => {
               {/* Email */}
               <div>
                 <a
-                  href="mailto:asok123123@gmail.com"
+                  href="mailto:support@besteverhospitality.com.au"
                   className="group flex flex-col items-center p-6 bg-white border border-gray-200 rounded-xl hover:border-blue-300 hover:shadow-lg transition-all duration-300"
                 >
                   <div className="p-3 bg-blue-50 rounded-full mb-3 group-hover:bg-blue-100 transition-colors">

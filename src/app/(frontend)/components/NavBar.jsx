@@ -37,7 +37,7 @@ export default function Navbar() {
     { href: "#about", label: "About" },
     { href: "#services", label: "Services", hasDropdown: true },
     { href: "#whychooseus", label: "Why Choose Us" },
-    { href: "#testimonials", label: "Pricing" },
+    { href: "/pricing", label: "Pricing" },
     { href: "#contact", label: "Contact" },
   ];
 

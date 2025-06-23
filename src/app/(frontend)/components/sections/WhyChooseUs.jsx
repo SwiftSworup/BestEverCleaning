@@ -9,6 +9,9 @@ import {
   Heart,
   Sparkles,
   CheckCircle,
+  ShieldCheckIcon,
+  PhoneCall,
+  Star,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -110,25 +113,38 @@ const WhyChooseUs = () => {
     <div className="py-12 container bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
-        <div ref={headerRef} className="text-center mb-16">
+        <div ref={headerRef} className="text-center mb-4">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full mb-6">
             <Sparkles className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-800 pb-6">
             Why Choose
             <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
               {" "}
               Our Service?
             </span>
           </h1>
+
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
             Experience the difference with our professional apartment cleaning
             services. We combine expertise, reliability, and care to make your
             home sparkle.
           </p>
         </div>
-        
-
+        <div className="text-center mb-16">
+          <div className="flex flex-wrap justify-center gap-6 mt-2">
+            <div className="flex items-center gap-3">
+              <Star className="text-yellow-500" /> 5-Star Rated Service
+            </div>
+            <div className="flex items-center gap-3">
+              <ShieldCheckIcon className="text-green-500" /> Trusted
+              Professionals
+            </div>
+            <div className="flex items-center gap-3">
+              <PhoneCall className="text-blue-500" /> 24/7 Support
+            </div>
+          </div>
+        </div>
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {reasons.map((reason, index) => {
@@ -180,7 +196,10 @@ const WhyChooseUs = () => {
             >
               Get Your Free Quote
             </Link>
-            <Link href="#services" className="px-8 py-4 bg-white text-slate-700 font-semibold rounded-xl border-2 border-slate-200 hover:border-blue-300 hover:bg-blue-50 transition-all duration-300">
+            <Link
+              href="#services"
+              className="px-8 py-4 bg-white text-slate-700 font-semibold rounded-xl border-2 border-slate-200 hover:border-blue-300 hover:bg-blue-50 transition-all duration-300"
+            >
               Learn More About Us
             </Link>
           </div>

@@ -54,7 +54,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className="bg-white text-gray-900 min-h-screen px-6 md:px-12 py-16">
+    <div className="bg-white text-gray-900 min-h-[60vh] px-6 md:px-12 py-16">
       <div className="max-w-5xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-800">
           <span className="text-blue-600">Sparkling</span> Clean Homes, Happy
@@ -91,22 +91,6 @@ const AboutUs = () => {
         ))}
       </div>
 
-      <div className="text-center mt-16">
-        <h2 className="text-3xl font-bold mb-4 text-gray-800">
-          Why Choose Us?
-        </h2>
-        <div className="flex flex-wrap justify-center gap-6 mt-6">
-          <div className="flex items-center gap-3">
-            <Star className="text-yellow-500" /> 5-Star Rated Service
-          </div>
-          <div className="flex items-center gap-3">
-            <ShieldCheck className="text-green-500" /> Trusted Professionals
-          </div>
-          <div className="flex items-center gap-3">
-            <PhoneCall className="text-blue-500" /> 24/7 Support
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

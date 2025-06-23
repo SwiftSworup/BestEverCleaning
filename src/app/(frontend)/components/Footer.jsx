@@ -90,7 +90,6 @@ export default function Footer() {
               <div className="flex  space-x-4 group">
                 <div className="relative ">
                   {" "}
-              
                   <div className="absolute -inset-3 rounded-2xl blur-lg opacity-0 group-hover:opacity-20 transition-all duration-700 "></div>
                   {/* Image container */}
                   <div className="rounded-xl overflow-hidden border-2 border-transparent group-hover:scale-105 transition-all duration-500 h-full">
@@ -214,10 +213,10 @@ export default function Footer() {
                   </div>
                   <div>
                     <Link
-                      href="mailto:asok123123@gmail.com"
+                      href="mailto:support@besteverhospitality.com.au"
                       className="text-sm text-gray-600 hover:text-teal-600 transition-colors duration-300 font-dmsans"
                     >
-                      asok123123@gmail.com
+                      support@besteverhospitality.com.au
                     </Link>
                   </div>
                 </div>
