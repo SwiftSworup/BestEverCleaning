@@ -25,9 +25,7 @@ const ContactUs = () => {
   const services = [
     "Regular Apartment Cleaning",
     "Office & Commercial Cleaning",
-    "Airbnb / Short Stay Cleaning",
     "End of Lease Cleaning",
-    "Rubbish Removal & Extras",
     "General Inquiry",
   ];
 

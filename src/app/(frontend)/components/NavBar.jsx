@@ -33,7 +33,7 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { href: "#home", label: "Home" },
+    { href: "/", label: "Home" },
     { href: "#about", label: "About" },
     { href: "#services", label: "Services", hasDropdown: true },
     { href: "#whychooseus", label: "Why Choose Us" },
@@ -94,9 +94,9 @@ export default function Navbar() {
                     />
                   </div>
                 </div>
-                <div className="absolute -top-1 -right-1 w-4 h-4 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
+                {/* <div className="absolute -top-1 -right-1 w-4 h-4 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
                   <Star className="w-2 h-2 text-white" />
-                </div>
+                </div> */}
               </div>
               {/* <div className="flex flex-col">
                 <span className="text-3xl font-black bg-gradient-to-r from-gray-800 via-blue-600 to-purple-600 bg-clip-text text-transparent group-hover:from-blue-600 group-hover:to-purple-600 transition-all duration-500">
