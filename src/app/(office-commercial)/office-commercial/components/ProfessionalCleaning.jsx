@@ -67,19 +67,21 @@ export default function RegularClean() {
   };
 
   return (
-    <section className="container py-8 md:py-16 px-4">
-      <div className="mb-6 md:mb-10">
-        {/* <div className="mb-4 text-center">
-          <span className="inline-block bg-blue-100 text-blue-700 text-xs md:text-sm font-semibold px-3 md:px-4 py-2 rounded-full font-montserrat">
-            🔆 Professional Cleaning Services
-          </span>
-        </div> */}
+    <section className="container py-8 md:py-16 px-4 relative overflow-hidden">
+      {/* Background Shadow Elements */}
+      <div className="absolute top-[100px] -right-[200px] h-0 w-0 lg:min-h-[400px] lg:min-w-[400px] z-[-1] hidden xl:block bg-[radial-gradient(circle,_rgba(34,_197,_94,_0.3)_0%,_rgba(255,_255,_255,_0.1)_70%,_rgba(255,_255,_255,_0.1)_100%)] rounded-full"></div>
+      <div className="absolute top-[50px] right-[100px] h-0 w-0 lg:min-h-[300px] lg:min-w-[300px] z-[-1] hidden xl:block bg-[radial-gradient(circle,_rgba(245,_158,_11,_0.25)_0%,_rgba(255,_255,_255,_0.1)_70%,_rgba(255,_255,_255,_0.1)_100%)] rounded-full"></div>
+      {/* <div className="absolute bottom-[200px] right-[50px] h-0 w-0 lg:min-h-[350px] lg:min-w-[350px] z-[-1] hidden xl:block bg-[radial-gradient(circle,_rgba(139,_92,_246,_0.3)_0%,_rgba(255,_255,_255,_0.1)_70%,_rgba(255,_255,_255,_0.1)_100%)] rounded-full"></div> */}
+      <div className="absolute top-[500px] -left-[150px] h-0 w-0 lg:min-h-[450px] lg:min-w-[450px] z-[-1] hidden xl:block bg-[radial-gradient(circle,_rgba(236,_72,_153,_0.25)_0%,_rgba(255,_255,_255,_0.1)_70%,_rgba(255,_255,_255,_0.1)_100%)] rounded-full"></div>
+      <div className="absolute bottom-[500px] left-[300px] h-0 w-0 lg:min-h-[250px] lg:min-w-[350px] z-[-1] hidden xl:block bg-[radial-gradient(circle,_rgba(20,_184,_166,_0.3)_0%,_rgba(255,_255,_255,_0.1)_70%,_rgba(255,_255,_255,_0.1)_100%)] rounded-full"></div>
+
+      <div className="mb-6 md:mb-10 relative z-10">
         <h2 className="text-2xl md:text-4xl font-bold mb-4 text-center font-poppins px-4">
           Why Choose
           <span className="text-blue-600"> Office & Commercial Cleaning?</span>
         </h2>
 
-        <p className="text-gray-600 max-w-[1290px] text-center  mx-auto mb-8 md:mb-12 text-base leading-relaxed font-dmsans px-4">
+        <p className="text-gray-600 max-w-[1290px] text-center mx-auto mb-8 md:mb-12 text-base leading-relaxed font-dmsans px-4">
           Running a business is hard enough — let us handle the cleaning. At
           BestEverHospitality, we offer tailored cleaning solutions for offices,
           shops, clinics, showrooms, and other commercial spaces. Our
@@ -90,9 +92,10 @@ export default function RegularClean() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-start gap-8 lg:gap-16">
-        {/* Image Section with Animation */}
-        <div className="w-full flex flex-col justify-center items-center order-2 lg:order-1">
+      <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-start gap-8 lg:gap-16 relative">
+        <div className="w-full flex flex-col justify-center items-center order-2 lg:order-1 relative">
+          <div className="absolute bottom-[-200px] -left-[250px] h-0 w-0 lg:min-h-[500px] lg:min-w-[500px] z-[-1] hidden xl:block bg-[radial-gradient(circle,_rgba(99,_73,_229,_0.4)_0%,_rgba(255,_255,_255,_0.2)_70%,_rgba(255,_255,_255,_0.2)_100%)] rounded-full"></div>
+          <div className="absolute bottom-[300px] -left-[250px] h-0 w-0 lg:min-h-[500px] lg:min-w-[500px] z-[-1] hidden xl:block bg-[radial-gradient(circle,_rgba(99,_73,_229,_0.4)_0%,_rgba(255,_255,_255,_0.2)_70%,_rgba(255,_255,_255,_0.2)_100%)] rounded-full"></div>
           <div className="flex flex-col items-start justify-start mb-6 lg:mb-0 lg:hidden">
             <div className="mb-4">
               <span className="inline-block bg-blue-100 text-blue-700 text-xs md:text-sm font-semibold px-3 md:px-4 py-2 rounded-full font-montserrat">
@@ -100,7 +103,7 @@ export default function RegularClean() {
               </span>
             </div>
             <h2 className="text-xl md:text-3xl font-bold mb-4 font-poppins">
-              What’s Included in{" "}
+              What's Included in{" "}
               <span className="text-[#2563EB]">
                 Office & Commercial Cleaning?
               </span>
@@ -118,12 +121,12 @@ export default function RegularClean() {
               </span>
             </div>
             <h2 className="text-3xl font-bold mb-4 font-poppins">
-              What's Included in Every Regular Clean?
+              What's Included in Office & Commercial Cleaning?
             </h2>
 
             <p className="text-gray-600 max-w-2xl mb-6 text-lg leading-relaxed font-dmsans">
-              Our team brings all the supplies and follows safe, eco-friendly
-              practices to give you spotless results without the stress.
+              We use eco-safe products, bring all necessary tools, and ensure
+              consistent quality with every visit.
             </p>
           </div>
           <div className="relative">
@@ -183,7 +186,7 @@ export default function RegularClean() {
         </div>
 
         {/* Details Section */}
-        <div className="flex flex-wrap order-1 lg:order-2  mt-16">
+        <div className="flex flex-wrap order-1 lg:order-2 mt-16">
           <div className="w-full md:w-1/2 px-2 md:px-4 mb-8 md:mb-0">
             <div className="mb-4">
               <Image
@@ -206,7 +209,6 @@ export default function RegularClean() {
               <li>Dust desks, shelves & electronics</li>
               <li>Wipe light switches & door handles</li>
               <li>Empty bins & replace liners</li>
-              {/* <li>Empty bins and replace liners</li> */}
             </ul>
           </div>
           <div className="w-full md:w-1/2 px-2 md:px-4 mb-8 md:mb-0">
@@ -231,7 +233,6 @@ export default function RegularClean() {
               <li>Vacuum carpets & mop floors</li>
               <li>Clean windows (interior) & glass partitions</li>
               <li>Wipe down high-touch surfaces</li>
-              {/* <li>Mop floors and take out trash</li> */}
             </ul>
           </div>
 
