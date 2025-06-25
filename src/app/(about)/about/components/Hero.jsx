@@ -122,7 +122,7 @@ export default function AboutUs() {
                 BestEver Cleaning Services was built on the foundation of trust,
                 reliability, and quality service. With over 10 years of
                 experience, we've developed efficient cleaning systems that give
-                you better results with less effort—and at a price that won't
+                you better results with less effort and at a price that won't
                 break the bank.
               </p>
               <p>
@@ -134,7 +134,7 @@ export default function AboutUs() {
               </p>
               <p>
                 We treat your property as if it were our own, and we treat our
-                team with the respect they deserve—because a happy team means
+                team with the respect they deserve because a happy team means
                 happy clients.
               </p>
             </div>

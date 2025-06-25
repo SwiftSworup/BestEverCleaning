@@ -13,7 +13,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-export default function Navbar() {
+export default function Navbar({
+  navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "#services", label: "Services", hasDropdown: true },
+    { href: "#whychooseus", label: "Why Choose Us" },
+    { href: "/pricing", label: "Pricing" },
+    { href: "#contact", label: "Contact" },
+  ],
+}) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
@@ -31,14 +40,14 @@ export default function Navbar() {
     }
   }, []);
 
-  const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    { href: "#services", label: "Services", hasDropdown: true },
-    { href: "#whychooseus", label: "Why Choose Us" },
-    { href: "/pricing", label: "Pricing" },
-    { href: "#contact", label: "Contact" },
-  ];
+  // const navLinks = [
+  //   { href: "/", label: "Home" },
+  //   { href: "/about", label: "About" },
+  //   { href: "#services", label: "Services", hasDropdown: true },
+  //   { href: "#whychooseus", label: "Why Choose Us" },
+  //   { href: "/pricing", label: "Pricing" },
+  //   { href: "#contact", label: "Contact" },
+  // ];
 
   const serviceItems = [
     { href: "/apartment-cleaning", label: "Regular Apartment Cleaning" },
@@ -85,11 +94,11 @@ export default function Navbar() {
                 <div className="rounded-xl overflow-hidden border-2 border-transparent group-hover:scale-[1.03] transition-all duration-300 h-full">
                   <div className="w-full h-full rounded-lg flex items-center justify-center">
                     <Image
-                      width={300}
+                      width={200}
                       height={100}
                       alt="logo"
                       src="/images/best.png"
-                      className="object-contain w-full h-full bg-blend-screen"
+                      className="object-contain h-full bg-blend-screen"
                     />
                   </div>
                 </div>

@@ -4,6 +4,8 @@ import ContactUs from "./(frontend)/components/sections/ContactUs";
 import Hero from "./(frontend)/components/sections/Hero";
 import CleaningServices from "./(frontend)/components/sections/Services";
 import WhyChooseUs from "./(frontend)/components/sections/WhyChooseUs";
+import Navbar from "@/components/reusables/NavBar";
+import Footer from "@/components/reusables/Footer";
 export const metadata = {
   metadataBase: new URL("https://besteverhospitality.com.au/"),
 
@@ -28,8 +30,17 @@ export const metadata = {
 };
 
 export default function Home() {
+  const customNavLinks = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "#services", label: "Services", hasDropdown: true },
+    { href: "#whychooseus", label: "Why Choose Us" },
+    { href: "/pricing", label: "Pricing" },
+    { href: "#contact", label: "Contact" },
+  ];
   return (
     <>
+      <Navbar navLinks={customNavLinks} />
       <section id="home" className="section-offset">
         <Hero />
       </section>
@@ -49,6 +60,7 @@ export default function Home() {
       <section id="contact" className="section-offset">
         <ContactUs />
       </section>
+      <Footer />
     </>
   );
 }
