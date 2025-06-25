@@ -8,14 +8,8 @@ const page = () => {
   return (
     <div>
       <Hero />
-      <section id="about" className="section-offset">
-        <AboutUs />
-      </section>
       <section id="contact" className="section-offset">
         <ContactUs />
-      </section>
-      <section id="whychooseus" className="section-offset">
-        <WhyChooseUs />
       </section>
     </div>
   );

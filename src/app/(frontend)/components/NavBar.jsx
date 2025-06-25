@@ -25,7 +25,6 @@ export default function Navbar() {
       setScrolled(window.scrollY > 20);
     };
 
-    // Only add event listener on client side
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", handleScroll);
       return () => window.removeEventListener("scroll", handleScroll);
@@ -34,7 +33,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "#about", label: "About" },
+    { href: "/about", label: "About" },
     { href: "#services", label: "Services", hasDropdown: true },
     { href: "#whychooseus", label: "Why Choose Us" },
     { href: "/pricing", label: "Pricing" },
@@ -83,14 +82,14 @@ export default function Navbar() {
             >
               <div className="relative h-full">
                 <div className="absolute -inset-3 rounded-2xl blur-lg opacity-0 group-hover:opacity-20 transition-all duration-700"></div>
-                <div className="rounded-xl overflow-hidden border-2 border-transparent group-hover:scale-105 transition-all duration-500 h-full">
+                <div className="rounded-xl overflow-hidden border-2 border-transparent group-hover:scale-[1.03] transition-all duration-300 h-full">
                   <div className="w-full h-full rounded-lg flex items-center justify-center">
                     <Image
-                      width={480}
+                      width={300}
                       height={100}
                       alt="logo"
                       src="/images/best.png"
-                      className="object-contain w-full h-full max-w-full max-h-full bg-blend-screen"
+                      className="object-contain w-full h-full bg-blend-screen"
                     />
                   </div>
                 </div>

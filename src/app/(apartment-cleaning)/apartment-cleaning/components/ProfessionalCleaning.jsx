@@ -86,7 +86,6 @@ export default function RegularClean() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-start gap-8 lg:gap-16 relative">
-        {/* Image Section with Animation */}
         <div className="w-full flex flex-col justify-center items-center order-2 lg:border-1 relative">
           <div className="absolute bottom-[-200px] -left-[250px] h-0 w-0 lg:min-h-[500px] lg:min-w-[500px] z-[-1] hidden xl:block bg-[radial-gradient(circle,_rgba(99,_73,_229,_0.4)_0%,_rgba(255,_255,_255,_0.2)_70%,_rgba(255,_255,_255,_0.2)_100%)] rounded-full"></div>
           <div className="flex flex-col items-start justify-start mb-6 lg:mb-0 lg:hidden">
