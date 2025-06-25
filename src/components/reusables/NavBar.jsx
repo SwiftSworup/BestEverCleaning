@@ -94,7 +94,7 @@ export default function Navbar({
                 <div className="rounded-xl overflow-hidden border-2 border-transparent group-hover:scale-[1.03] transition-all duration-300 h-full">
                   <div className="w-full h-full rounded-lg flex items-center justify-center">
                     <Image
-                      width={200}
+                      width={250}
                       height={100}
                       alt="logo"
                       src="/images/best.png"
