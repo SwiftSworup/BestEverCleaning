@@ -35,7 +35,7 @@ export default function Home() {
     { href: "/about", label: "About" },
     { href: "#services", label: "Services", hasDropdown: true },
     { href: "#whychooseus", label: "Why Choose Us" },
-    { href: "/pricing", label: "Pricing" },
+    // { href: "/pricing", label: "Pricing" },
     { href: "#contact", label: "Contact" },
   ];
   return (
