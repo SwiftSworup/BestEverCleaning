@@ -193,7 +193,7 @@ export default function Footer() {
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-3 group">
+                {/* <div className="flex items-center space-x-3 group">
                   <div className="p-2 bg-green-100 rounded-lg group-hover:bg-green-200 transition-colors duration-300">
                     <Phone className="w-4 h-4 text-green-600" />
                   </div>
@@ -205,7 +205,7 @@ export default function Footer() {
                       +61428757972
                     </Link>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-center space-x-3 group">
                   <div className="p-2 bg-teal-100 rounded-lg group-hover:bg-teal-200 transition-colors duration-300">
