@@ -72,10 +72,10 @@ export default function Navbar({
           } bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white px-4 text-center text-sm font-medium`}
         >
           <div className="flex items-center justify-center space-x-6">
-            {/* <div className="flex items-center space-x-2 font-dmsans">
+             <div className="flex items-center space-x-2 font-dmsans">
               <Phone className="w-3 h-3" />
-              <span>Call Now: +61428757972</span>
-            </div> */}
+              <span>0123456789</span>
+            </div> 
             <div className="hidden md:flex items-center space-x-2">
               <Sparkles className="w-3 h-3" />
               <span>✨ 10% OFF First Clean - Limited Time!</span>
