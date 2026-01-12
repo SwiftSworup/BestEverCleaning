@@ -193,19 +193,19 @@ export default function Footer() {
                   </div>
                 </div>
 
-                {/* <div className="flex items-center space-x-3 group">
+                 <div className="flex items-center space-x-3 group">
                   <div className="p-2 bg-green-100 rounded-lg group-hover:bg-green-200 transition-colors duration-300">
                     <Phone className="w-4 h-4 text-green-600" />
                   </div>
                   <div className="font-dmsans">
                     <Link
-                      href="tel:+61428757972"
+                      href="tel:+0123456789"
                       className="text-sm text-gray-600 hover:text-green-600 transition-colors duration-300"
                     >
-                      +61428757972
+                      01234567890
                     </Link>
                   </div>
-                </div> */}
+                </div> 
 
                 <div className="flex items-center space-x-3 group">
                   <div className="p-2 bg-teal-100 rounded-lg group-hover:bg-teal-200 transition-colors duration-300">
