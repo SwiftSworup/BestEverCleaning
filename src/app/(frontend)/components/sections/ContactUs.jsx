@@ -153,7 +153,7 @@ const ContactUs = () => {
                   Contact Information
                 </h3>
 
-                <div className="space-y-4 font-dmsans">
+                {/* <div className="space-y-4 font-dmsans">
                   <div className="flex items-start">
                     <div className="p-2 bg-blue-100 rounded-lg mr-4 flex-shrink-0">
                       <Phone className="w-5 h-5 text-blue-600" />
@@ -162,7 +162,7 @@ const ContactUs = () => {
                       <p className="font-medium text-gray-900">Phone</p>
                       <p className="text-gray-600">+61428757972</p>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="flex items-start font-dmsans">
                     <div className="p-2 bg-blue-100 rounded-lg mr-4 flex-shrink-0">
